@@ -1,0 +1,18 @@
+services:
+  env_kcadm:
+    volumes:
+    - ../../config/env/env_kcadm/scripts:/opt/scripts
+    image: bitnami/keycloak:latest
+    environment:
+      KEYCLOAK_ADMIN_PASSWORD: GfhjkmRfhjkm1
+      KEYCLOAK_TARGET_SERVER: http://env_keycloak:8080/auth
+      KEYCLOAK_ADMIN_REALM: master
+      KEYCLOAK_ADMIN: admin
+    user: root
+    networks:
+      default: {}
+    restart: no
+    entrypoint: /bin/bash /opt/scripts/bootstrap.sh
+    profiles:
+    - never
+

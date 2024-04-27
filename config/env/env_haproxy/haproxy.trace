@@ -1,0 +1,94 @@
+- path: ''
+  name: kafka_ui_local_example_com
+  hostname: kafka-ui.local.example.com
+  proxies:
+  - servers:
+    - check: true
+      port: 8080
+      optional: false
+      hostname: env_kafka_ui
+    path: /
+  port: 80
+- path: ''
+  name: pgadmin_local_example_com
+  hostname: pgadmin.local.example.com
+  proxies:
+  - servers:
+    - check: true
+      port: 80
+      optional: false
+      hostname: env_pgadmin
+    path: /
+  port: 80
+- path: ''
+  name: swagger_ui_local_example_com
+  hostname: swagger-ui.local.example.com
+  proxies:
+  - servers:
+    - check: true
+      port: 8080
+      optional: false
+      hostname: env_swagger_ui
+    path: /
+  port: 80
+- path: ''
+  name: auth_local_example_com
+  hostname: auth.local.example.com
+  proxies:
+  - servers:
+    - check: true
+      port: 8080
+      optional: false
+      hostname: env_keycloak
+    path: /
+  redirect:
+    type: prefix
+    prefix: /auth
+    code: 301
+  port: 80
+- path: ''
+  name: api
+  hostname: api.local.example.com
+  proxies:
+  - servers:
+    - check: true
+      port: 8080
+      optional: true
+      hostname: host.docker.internal
+    path: /api/service_catalog
+    cors:
+      origin: '*'
+  - servers:
+    - check: true
+      port: 8081
+      optional: true
+      hostname: host.docker.internal
+    path: /api/service_customers
+    cors:
+      origin: '*'
+  - servers:
+    - check: true
+      port: 8082
+      optional: true
+      hostname: host.docker.internal
+    path: /api/service_basket
+    cors:
+      origin: '*'
+  - servers:
+    - check: true
+      port: 8083
+      optional: true
+      hostname: host.docker.internal
+    path: /api/service_payments
+    cors:
+      origin: '*'
+  - servers:
+    - check: true
+      port: 8084
+      optional: true
+      hostname: host.docker.internal
+    path: /api/service_events
+    cors:
+      origin: '*'
+  port: 80
+

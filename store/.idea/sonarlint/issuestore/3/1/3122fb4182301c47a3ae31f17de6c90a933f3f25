@@ -1,0 +1,9 @@
+
+…
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ8¾î¹ßñ1J$6824ecc4-8461-43c0-bf73-20196f089119
+…
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄÞ8¾î¹ßñ1J$609cf6bc-26de-4350-8de5-8d091a51e1c7
+•
+java:S6204N"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ì­ºßñ1J$a0a9a432-0eac-49d8-bbfc-0ee9ff688b66
+}
+java:S62132":Rename this variable to not match a restricted identifier.(ò ªª8Æî¹ßñ1J$c38cef22-852c-482a-8f8d-15b012221b29

@@ -1,0 +1,25 @@
+{
+  "queryConfigEnabled": true,
+  "urls": [
+    {
+      "name": "Service Catalogue",
+      "url": "http://api.local.example.com/api/service_catalog/v3/api-docs"
+    },
+    {
+      "name": "Service Customers",
+      "url": "http://api.local.example.com/api/service_customers/v3/api-docs"
+    },
+    {
+      "name": "Service Basket",
+      "url": "http://api.local.example.com/api/service_basket/v3/api-docs"
+    },
+    {
+      "name": "Service Payments",
+      "url": "http://api.local.example.com/api/service_payments/v3/api-docs"
+    },
+    {
+      "name": "Service Events",
+      "url": "http://api.local.example.com/api/service_events/v3/api-docs"
+    }
+  ]
+}

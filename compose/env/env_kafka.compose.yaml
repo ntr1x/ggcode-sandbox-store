@@ -1,0 +1,33 @@
+volumes:
+  env_kafka: {}
+services:
+  env_kafka:
+    volumes:
+    - env_kafka:/bitnami/kafka
+    image: bitnami/kafka:3.5.1
+    networks:
+      default: {}
+    restart: unless-stopped
+    ports:
+    - 9092:9092
+    - 29092:29092
+    environment:
+      KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: 1@env_kafka:9093
+      KAFKA_CFG_BROKER_ID: 1
+      KAFKA_ENABLE_KRAFT: yes
+      KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_KRAFT_CLUSTER_ID: NTdhMjIzMzMyYmFlNGUxMD
+      KAFKA_INTER_BROKER_LISTENER_NAME: CLIENT_LOCAL
+      ALLOW_PLAINTEXT_LISTENER: yes
+      KAFKA_CFG_LISTENERS: CLIENT://:29092,CLIENT_LOCAL://:9092,CONTROLLER://:9093
+      KAFKA_CFG_PROCESS_ROLES: broker,controller
+      KAFKA_CFG_ADVERTISED_LISTENERS: CLIENT://env_kafka:29092,CLIENT_LOCAL://localhost:9092
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: CLIENT:PLAINTEXT,CLIENT_LOCAL:PLAINTEXT,CONTROLLER:PLAINTEXT
+      KAFKA_CFG_NODE_ID: 1
+    deploy:
+      resources:
+        limits:
+          memory: 500M
+    profiles:
+    - env
+

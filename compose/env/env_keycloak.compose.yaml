@@ -1,0 +1,35 @@
+services:
+  env_keycloak:
+    volumes:
+    - ../../config/env/env_keycloak/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    image: bitnami/keycloak:latest
+    environment:
+      KEYCLOAK_ENABLE_STATISTICS: 'false'
+      KEYCLOAK_DATABASE_PORT: 5432
+      PROXY_ADDRESS_FORWARDING: 'true'
+      KEYCLOAK_HTTP_RELATIVE_PATH: /auth/
+      KEYCLOAK_CACHE_TYPE: local
+      KEYCLOAK_HTTP_PORT: 8080
+      KEYCLOAK_DATABASE_NAME: keycloak
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_PROXY: passthrough
+      KEYCLOAK_DATABASE_USER: keycloak
+      KEYCLOAK_DATABASE_HOST: env_postgres
+      KEYCLOAK_PRODUCTION: 'false'
+      KEYCLOAK_ADMIN_PASSWORD: GfhjkmRfhjkm1
+      KEYCLOAK_LOG_OUTPUT: default
+      KEYCLOAK_DATABASE_PASSWORD: keycloak
+      KEYCLOAK_ENABLE_HTTPS: 'false'
+    restart: unless-stopped
+    networks:
+      default: {}
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+    depends_on:
+    - env_postgres
+    profiles:
+    - env
+

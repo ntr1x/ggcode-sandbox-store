@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../ggcode-example-asciicast" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-mdbook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-asciicast" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+{
+  "Servers": {
+    "1": {
+      "Group": "Default",
+      "Host": "env_postgres",
+      "MaintenanceDB": "keycloak",
+      "Name": "keycloak",
+      "Port": 5432,
+      "SSLMode": "prefer",
+      "Username": "keycloak"
+    },
+    "2": {
+      "Group": "Default",
+      "Host": "env_postgres",
+      "MaintenanceDB": "app",
+      "Name": "app",
+      "Port": 5432,
+      "SSLMode": "prefer",
+      "Username": "app"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+
+t
+java:S1488-"^Immediately return this expression instead of assigning it to the temporary variable "result".(ê²Û½
+t
+java:S1488F"^Immediately return this expression instead of assigning it to the temporary variable "result".(ê²Û½
+t
+java:S1488]"^Immediately return this expression instead of assigning it to the temporary variable "result".(ê²Û½
+t
+java:S1488w"^Immediately return this expression instead of assigning it to the temporary variable "result".(ê²Û½
+N
+java:S1611&"3Remove the parentheses around the "value" parameter(€ì©ùÿÿÿÿ
+N
+java:S1611("3Remove the parentheses around the "value" parameter(ëÏ†Ôşÿÿÿÿ
+N
+java:S1611*"3Remove the parentheses around the "value" parameter(œĞŒüÿÿÿÿ
+N
+java:S1611V"3Remove the parentheses around the "value" parameter(€ì©ùÿÿÿÿ
+N
+java:S1611X"3Remove the parentheses around the "value" parameter(ëÏ†Ôşÿÿÿÿ
+N
+java:S1611Z"3Remove the parentheses around the "value" parameter(œĞŒüÿÿÿÿ
+N
+java:S1611n"3Remove the parentheses around the "value" parameter(·áó«ûÿÿÿÿ
+N
+java:S1611p"3Remove the parentheses around the "value" parameter(€ì©ùÿÿÿÿ
+N
+java:S1611r"3Remove the parentheses around the "value" parameter(ëÏ†Ôşÿÿÿÿ
+N
+java:S1611t"3Remove the parentheses around the "value" parameter(œĞŒüÿÿÿÿ

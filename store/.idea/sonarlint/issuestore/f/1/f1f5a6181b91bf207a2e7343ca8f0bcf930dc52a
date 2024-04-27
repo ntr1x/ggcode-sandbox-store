@@ -1,0 +1,13 @@
+
+•
+java:S6204 "RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8îö Òæ1J$477190ed-7c4b-40d5-8677-448ef9afc168
+•
+java:S6204*"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8òö Òæ1J$91094970-6041-4860-a0c5-3240dfedc2ef
+‡
+java:S1858("D"s" is already a string, there's no need to call "toString()" on it.(ò ÒÝ8›×¤Òæ1J$5b1e3f5c-a2e9-474f-89b3-64bbc66a8222
+•
+java:S62043"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8öö Òæ1J$6848e918-c0b2-425d-bc97-443c8c975bcc
+|
+java:S16121"9Replace this lambda with method reference 'String::trim'.(Ö¸‘û8ëÏ¡Òæ1J$f2970bc4-93b9-4831-b22f-b925160b0db3
+•
+java:S6204<"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8 ×¤Òæ1J$dfb73b5b-9336-4afd-a3ed-5bf14fe3aaf0

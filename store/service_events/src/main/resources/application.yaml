@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  forward-headers-strategy: framework
+  servlet:
+    context-path: /api/service_events
+
+spring:
+  application:
+    name: service_events
+  config:
+    import:
+      - classpath:shared-datasource.yaml
+      - classpath:shared-security.yaml
+
+springdoc:
+  api:
+    title: Store
+    description: Store Description
+    version: 1

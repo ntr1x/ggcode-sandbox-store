@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="425eb298-a9c3-483a-884d-46de1b2a46ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.." beforeDir="false" afterPath="$PROJECT_DIR$/../.." afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-compose" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-compose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-core" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-core" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring/actions/generate.luau" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring/actions/generate.luau" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring/scrolls/resource/templates/{project.name}/{module.name}/src/main/java/{package.path}/service/{projection.name}/{resource.pascal_name}Service.java.tera" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ggcode-repositories/ggcode-repo-spring/scrolls/resource/templates/{project.name}/{module.name}/src/main/java/{package.path}/service/{projection.name}/{resource.pascal_name}Service.java.tera" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="z9l8vp2s" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dVg02fmhWo6WJtwPm0xEkIvYlD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GatewayCustomersApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GatewayPaymentsApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServiceBasketApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServiceCatalogApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServiceCustomersApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServiceEventsApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServicePaymentsApplicationLocal.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.application [clean,install].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ipavlenko/Projects/SHL/ggcode-root/ggcode-examples/ggcode-example-store/app/store/common_web/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3691756&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common_web/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ntr1x.common.web.converter" />
+      <recent name="com.example.service.basket.view" />
+      <recent name="com.example.service.basket.controller" />
+      <recent name="org.ntr1x.common.web.annotation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Compound.All">
+    <configuration name="GatewayCustomersApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gateway.customers.GatewayCustomersApplicationLocal" />
+      <module name="gateway_customers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gateway.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayPaymentsApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gateway.payments.GatewayPaymentsApplicationLocal" />
+      <module name="gateway_payments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gateway.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceBasketApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.service.basket.ServiceBasketApplicationLocal" />
+      <module name="service_basket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCatalogApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.service.catalog.ServiceCatalogApplicationLocal" />
+      <module name="service_catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCustomersApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.service.customers.ServiceCustomersApplicationLocal" />
+      <module name="service_customers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceEventsApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.service.events.ServiceEventsApplicationLocal" />
+      <module name="service_events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePaymentsApplicationLocal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.service.payments.ServicePaymentsApplicationLocal" />
+      <module name="service_payments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All" type="CompoundRunConfigurationType">
+      <toRun name="GatewayCustomersApplicationLocal" type="Application" />
+      <toRun name="GatewayPaymentsApplicationLocal" type="Application" />
+      <toRun name="ServiceBasketApplicationLocal" type="Application" />
+      <toRun name="ServiceCatalogApplicationLocal" type="Application" />
+      <toRun name="ServiceCustomersApplicationLocal" type="Application" />
+      <toRun name="ServiceEventsApplicationLocal" type="Application" />
+      <toRun name="ServicePaymentsApplicationLocal" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="application [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ServiceBasketApplicationLocal" />
+      <item itemvalue="Application.ServiceCatalogApplicationLocal" />
+      <item itemvalue="Application.ServiceCustomersApplicationLocal" />
+      <item itemvalue="Application.ServicePaymentsApplicationLocal" />
+      <item itemvalue="Application.ServiceEventsApplicationLocal" />
+      <item itemvalue="Application.GatewayCustomersApplicationLocal" />
+      <item itemvalue="Application.GatewayPaymentsApplicationLocal" />
+      <item itemvalue="Compound.All" />
+      <item itemvalue="Maven.application [clean,install]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="425eb298-a9c3-483a-884d-46de1b2a46ac" name="Changes" comment="" />
+      <created>1710098434464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710098434464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service_customers/src/main/java/com/example/service/customers/service/profile/ProfilePublicCustomerVerifyEmailService.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

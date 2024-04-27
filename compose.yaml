@@ -1,0 +1,13 @@
+include:
+- path: compose/env/env_haproxy.compose.yaml
+- path: compose/env/env_kafka.compose.yaml
+- path: compose/env/env_kafka_ui.compose.yaml
+- path: compose/env/env_pgadmin.compose.yaml
+- path: compose/env/env_postgres.compose.yaml
+- path: compose/env/env_swagger_ui.compose.yaml
+- path: compose/env/env_keycloak.compose.yaml
+- path: compose/env/env_kcadm.compose.yaml
+version: '3.9'
+networks:
+  default: null
+

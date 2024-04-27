@@ -1,0 +1,12 @@
+
+U
+java:S1611-"3Remove the parentheses around the "value" parameter(œĞŒüÿÿÿÿ8æğÓàñ1
+f
+java:S1128
+"DRemove this unused import 'org.springframework.data.domain.Example'.(³˜œÍüÿÿÿÿ8ÒøĞóñ1
+m
+java:S1128"KRemove this unused import 'org.springframework.data.domain.ExampleMatcher'.(¯û¸ûÿÿÿÿ8ÒøĞóñ1
+c
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ8ÓøĞóñ1
+g
+java:S1128"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8ÓøĞóñ1
